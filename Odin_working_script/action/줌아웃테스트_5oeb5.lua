@@ -1,0 +1,1 @@
+Keybd('<Ctrl_Press>', FASTER, MKEVENT)

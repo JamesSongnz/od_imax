@@ -1,0 +1,1 @@
+ImageClick('종료확인')

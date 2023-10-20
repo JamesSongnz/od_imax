@@ -1,0 +1,1 @@
+EnableImage(true, dungeon_name[dungeon_index])

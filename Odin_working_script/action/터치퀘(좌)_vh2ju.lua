@@ -1,0 +1,1 @@
+eventtick = GetTickCount()

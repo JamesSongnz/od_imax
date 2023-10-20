@@ -1,0 +1,1 @@
+-- get g1 name

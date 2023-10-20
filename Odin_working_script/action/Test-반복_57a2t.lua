@@ -1,0 +1,1 @@
+svr_list_scroll_try = 0
