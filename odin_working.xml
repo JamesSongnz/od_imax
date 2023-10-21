@@ -26,16 +26,16 @@
         <TWAClass>UnrealWindow</TWAClass>
         <TWBClass>#32769</TWBClass>
         <TWCClass>UnrealWindow</TWCClass>
-        <TWHandle>0xF0048</TWHandle>
-        <TargetWnd.left>1178</TargetWnd.left>
+        <TWHandle>0x305DA</TWHandle>
+        <TargetWnd.left>1182</TargetWnd.left>
         <TargetWnd.top>31</TargetWnd.top>
-        <TargetWnd.right>2138</TargetWnd.right>
+        <TargetWnd.right>2142</TargetWnd.right>
         <TargetWnd.bottom>571</TargetWnd.bottom>
-        <TarfrmWnd.left>1170</TarfrmWnd.left>
+        <TarfrmWnd.left>1174</TarfrmWnd.left>
         <TarfrmWnd.top>0</TarfrmWnd.top>
-        <TarfrmWnd.right>2146</TarfrmWnd.right>
+        <TarfrmWnd.right>2150</TarfrmWnd.right>
         <TarfrmWnd.bottom>579</TarfrmWnd.bottom>
-        <PickPos>32048468</PickPos>
+        <PickPos>14026280</PickPos>
         <TWCName>ODIN  </TWCName>
         <Hotkey0>F7</Hotkey0>
         <Modifiers0>0</Modifiers0>
@@ -53,7 +53,87 @@
         <CaptureMode>1</CaptureMode>
         <ReactSpeed>2</ReactSpeed>
         <InputType>1</InputType>
-        <ImageCount>771</ImageCount>
+        <ImageCount>772</ImageCount>
+        <Image_1>
+            <Name>초기설정</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>0</Enable>
+            <Group>0</Group>
+            <Trg Interval="0.1" CheckInherit1="0" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>11</ActCount>
+            <Act_1>
+                <Name>스크립트 입력</Name>
+                <Enable>1</Enable>
+                <Param>Script( 초기설정_w8p7u.lua --------- 변수 설정 ---------         \n -- (수정 후에는 다시 START 눌러주세요)\n -- 앞에 -- 붙어있는건 설명을 위한 주석입니다\n -- 메크로가 인식하지 않습니다\n \n -- [자동퀘스트] 모드 옵션\n -- 1 )</Param>
+                <Attr LuaFile="초기설정_w8p7u.lua" Text="--------- 변수 설정 ---------         \n -- (수정 후에는 다시 START 눌러주세요)\n -- 앞에 -- 붙어있는건 설명을 위한 주석입니다\n -- 메크로가 인식하지 않습니다\n \n -- [자동퀘스트] 모드 옵션\n -- 1"/>
+            </Act_1>
+            <Act_2>
+                <Name>스크립트 입력</Name>
+                <Enable>1</Enable>
+                <Param>Script( 초기설정_m45tu.lua -- [자동퀘스트] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\ )</Param>
+                <Attr LuaFile="초기설정_m45tu.lua" Text="-- [자동퀘스트] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\"/>
+            </Act_2>
+            <Act_3>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_i9zpi.lua -- [맵이동사냥] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\ )</Param>
+                <Attr LuaFile="초기설정_i9zpi.lua" Text="-- [맵이동사냥] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\"/>
+            </Act_3>
+            <Act_4>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_xgdib.lua -- [이동채집] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  )</Param>
+                <Attr LuaFile="초기설정_xgdib.lua" Text="-- [이동채집] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n "/>
+            </Act_4>
+            <Act_5>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_uv789.lua -- [던전사냥] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  )</Param>
+                <Attr LuaFile="초기설정_uv789.lua" Text="-- [던전사냥] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n "/>
+            </Act_5>
+            <Act_6>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_kuyi5.lua -- [통발] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  Sto )</Param>
+                <Attr LuaFile="초기설정_kuyi5.lua" Text="-- [통발] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n  Sto"/>
+            </Act_6>
+            <Act_7>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_cdgej.lua -- [캐쉬템 받기] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.') )</Param>
+                <Attr LuaFile="초기설정_cdgej.lua" Text="-- [캐쉬템 받기] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)"/>
+            </Act_7>
+            <Act_8>
+                <Name>스크립트 입력</Name>
+                <Enable>0</Enable>
+                <Param>Script( 초기설정_umur6.lua -- [초기퀘] 모드                 \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  Stop() )</Param>
+                <Attr LuaFile="초기설정_umur6.lua" Text="-- [초기퀘] 모드                 \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n  Stop()"/>
+            </Act_8>
+            <Act_9>
+                <Name>스크립트 입력</Name>
+                <Enable>1</Enable>
+                <Param>Script( 초기설정_xdozi.lua -------- 시스템 변수 --------         \n t = GetTickCount()\n starttick = t\n eventtick = t\n reqtick = t\n rotmovetick = 0\n revivaltick = 0\n pktick = 0\n party_d = 0\n autorestart = 0\n re_start = )</Param>
+                <Attr LuaFile="초기설정_xdozi.lua" Text="-------- 시스템 변수 --------         \n t = GetTickCount()\n starttick = t\n eventtick = t\n reqtick = t\n rotmovetick = 0\n revivaltick = 0\n pktick = 0\n party_d = 0\n autorestart = 0\n re_start ="/>
+            </Act_9>
+            <Act_10>
+                <Name>인식 순서 변경</Name>
+                <Enable>0</Enable>
+                <Param>Goto( 625 초기설정끝 1 )</Param>
+                <Attr ImageSelect="625" ImageName="초기설정끝" GotoCount="1"/>
+            </Act_10>
+            <Act_11>
+                <Name>스크립트 입력</Name>
+                <Enable>1</Enable>
+                <Param>Script( 초기설정_3hw91.lua GotoImage('초기설정끝')\n \n if(restart_mode == 1) then\n  EnableImage(true, '4시초기화')\n end\n \n buff_ret = 0 )</Param>
+                <Attr LuaFile="초기설정_3hw91.lua" Text="GotoImage(&apos;초기설정끝&apos;)\n \n if(restart_mode == 1) then\n  EnableImage(true, &apos;4시초기화&apos;)\n end\n \n buff_ret = 0"/>
+            </Act_11>
+        </Image_1>
         <Image_2>
             <Name>4시초기화설정</Name>
             <Rect>(0, 0, 0, 0)</Rect>
@@ -24090,80 +24170,6 @@
                 <Attr ImageSelect="627" ImageName="파던스위치" Enable="1" DisableCurImage="0" CheckEnableTimer="1" EnableTimerMin="2" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
         </Image_631>
-        <Image_632>
-            <Name>==캐쉬받기시작</Name>
-            <Rect>(0, 0, 0, 0)</Rect>
-            <ROI>(0, 0, 0, 0)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>13303808</Param1>
-            <Param2>539632</Param2>
-            <Param3>0</Param3>
-            <Param4>1697124071</Param4>
-            <Enable>0</Enable>
-            <Group>0</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>10</ActCount>
-            <Act_1>
-                <Name>마우스 입력</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 2  1 503 458 0 0  5 5  0.000000 0.000000  2.000000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="2" Base="1" Coord_x1="503" Coord_y1="458" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="2" Iter="1"/>
-            </Act_1>
-            <Act_2>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 632 서버입장 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="632" ImageName="서버입장" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_2>
-            <Act_3>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 637 캐쉬받기-가을 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="637" ImageName="캐쉬받기-가을" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_3>
-            <Act_4>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 643 캐쉬받기-추석 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="643" ImageName="캐쉬받기-추석" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_4>
-            <Act_5>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 649 캐쉬받기-60일 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="649" ImageName="캐쉬받기-60일" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_5>
-            <Act_6>
-                <Name>인식 활성/비활성</Name>
-                <Enable>0</Enable>
-                <Param>Enable( 655 캐쉬받기-발할라 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="655" ImageName="캐쉬받기-발할라" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_6>
-            <Act_7>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 661 캐쉬완료 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="661" ImageName="캐쉬완료" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_7>
-            <Act_8>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 670 종료후서버선택이동 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="670" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_8>
-            <Act_9>
-                <Name>인식 활성/비활성</Name>
-                <Enable>0</Enable>
-                <Param>Enable( 677 무한대기 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="677" ImageName="무한대기" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_9>
-            <Act_10>
-                <Name>인식 활성/비활성</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 631 ==캐쉬받기시작 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="631" ImageName="==캐쉬받기시작" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_10>
-        </Image_632>
         <Image_633>
             <Name>서버입장.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
@@ -24262,8 +24268,8 @@
             <Act_7>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 636 캐쉬받기아이콘(2) 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="636" ImageName="캐쉬받기아이콘(2)" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 637 캐쉬받기아이콘(2) 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="637" ImageName="캐쉬받기아이콘(2)" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
         </Image_635>
         <Image_636>
@@ -24300,11 +24306,43 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 636 캐쉬받기아이콘(2) 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="636" ImageName="캐쉬받기아이콘(2)" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 637 캐쉬받기아이콘(2) 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="637" ImageName="캐쉬받기아이콘(2)" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
         </Image_636>
         <Image_637>
+            <Name>방치결과</Name>
+            <Rect>(438, 154, 53, 13)</Rect>
+            <ROI>(438, 154, 53, 13)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>5767168</Param1>
+            <Param2>146403</Param2>
+            <Param3>0</Param3>
+            <Param4>1697856424</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>3</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+            <Act_3>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  1 480 375 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="480" Coord_y1="375" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_3>
+        </Image_637>
+        <Image_638>
             <Name>캐쉬받기아이콘(2)</Name>
             <Rect>(690, 20, 11, 15)</Rect>
             <ROI>(690, 20, 11, 15)</ROI>
@@ -24338,11 +24376,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 637 캐쉬받기-가을 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="637" ImageName="캐쉬받기-가을" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 638 캐쉬받기-가을 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="638" ImageName="캐쉬받기-가을" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_637>
-        <Image_638>
+        </Image_638>
+        <Image_639>
             <Name>캐쉬받기-가을.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24355,8 +24393,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_638>
-        <Image_639>
+        </Image_639>
+        <Image_640>
             <Name>이벤트보상타티틀</Name>
             <Rect>(430, 41, 101, 24)</Rect>
             <ROI>(430, 41, 101, 24)</ROI>
@@ -24402,11 +24440,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 638 이벤트보상타티틀 5 )</Param>
-                <Attr ImageSelect="638" ImageName="이벤트보상타티틀" GotoCount="5"/>
+                <Param>Goto( 639 이벤트보상타티틀 5 )</Param>
+                <Attr ImageSelect="639" ImageName="이벤트보상타티틀" GotoCount="5"/>
             </Act_6>
-        </Image_639>
-        <Image_640>
+        </Image_640>
+        <Image_641>
             <Name>가을1라인</Name>
             <Rect>(213, 395, 11, 12)</Rect>
             <ROI>(75, 297, 629, 23)</ROI>
@@ -24440,11 +24478,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 640 가을2라인 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="640" ImageName="가을2라인" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 641 가을2라인 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="641" ImageName="가을2라인" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_640>
-        <Image_641>
+        </Image_641>
+        <Image_642>
             <Name>가을2라인</Name>
             <Rect>(213, 395, 11, 12)</Rect>
             <ROI>(73, 399, 632, 20)</ROI>
@@ -24475,8 +24513,8 @@
                 <Param/>
                 <Attr/>
             </Act_3>
-        </Image_641>
-        <Image_642>
+        </Image_642>
+        <Image_643>
             <Name>팝업종료(3)</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24501,8 +24539,8 @@
                 <Param>Mouse( 0 0 1  1 710 133 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="710" Coord_y1="133" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_642>
-        <Image_643>
+        </Image_643>
+        <Image_644>
             <Name>던전-캐쉬종료</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24518,11 +24556,11 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 637 캐쉬받기-가을 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="637" ImageName="캐쉬받기-가을" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 638 캐쉬받기-가을 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="638" ImageName="캐쉬받기-가을" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
-        </Image_643>
-        <Image_644>
+        </Image_644>
+        <Image_645>
             <Name>캐쉬받기-추석.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24535,8 +24573,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_644>
-        <Image_645>
+        </Image_645>
+        <Image_646>
             <Name>추석</Name>
             <Rect>(747, 213, 81, 20)</Rect>
             <ROI>(745, 90, 114, 159)</ROI>
@@ -24567,8 +24605,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_645>
-        <Image_646>
+        </Image_646>
+        <Image_647>
             <Name>추석-1일차</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(74, 297, 630, 21)</ROI>
@@ -24602,11 +24640,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 646 추석-2일차 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="646" ImageName="추석-2일차" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 647 추석-2일차 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="647" ImageName="추석-2일차" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_646>
-        <Image_647>
+        </Image_647>
+        <Image_648>
             <Name>추석-2일차</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(71, 400, 630, 18)</ROI>
@@ -24640,11 +24678,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 647 팝업종료 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="647" ImageName="팝업종료" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 648 팝업종료 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="648" ImageName="팝업종료" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_647>
-        <Image_648>
+        </Image_648>
+        <Image_649>
             <Name>팝업종료</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24669,8 +24707,8 @@
                 <Param>Mouse( 0 0 1  1 712 228 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="712" Coord_y1="228" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_648>
-        <Image_649>
+        </Image_649>
+        <Image_650>
             <Name>추석-캐쉬종료</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24686,11 +24724,11 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 643 캐쉬받기-추석 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="643" ImageName="캐쉬받기-추석" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 644 캐쉬받기-추석 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="644" ImageName="캐쉬받기-추석" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
-        </Image_649>
-        <Image_650>
+        </Image_650>
+        <Image_651>
             <Name>캐쉬받기-60일.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24703,8 +24741,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_650>
-        <Image_651>
+        </Image_651>
+        <Image_652>
             <Name>60일선택</Name>
             <Rect>(801, 324, 26, 21)</Rect>
             <ROI>(791, 89, 42, 269)</ROI>
@@ -24735,8 +24773,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_651>
-        <Image_652>
+        </Image_652>
+        <Image_653>
             <Name>60-1일차</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(80, 263, 500, 19)</ROI>
@@ -24770,11 +24808,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 652 60-2일차 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="652" ImageName="60-2일차" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 653 60-2일차 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="653" ImageName="60-2일차" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_652>
-        <Image_653>
+        </Image_653>
+        <Image_654>
             <Name>60-2일차</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(82, 352, 497, 21)</ROI>
@@ -24805,8 +24843,8 @@
                 <Param/>
                 <Attr/>
             </Act_3>
-        </Image_653>
-        <Image_654>
+        </Image_654>
+        <Image_655>
             <Name>팝업종료(2)</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24831,8 +24869,8 @@
                 <Param>Mouse( 0 0 1  1 715 167 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="715" Coord_y1="167" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_654>
-        <Image_655>
+        </Image_655>
+        <Image_656>
             <Name>60일-캐쉬비활성</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24848,11 +24886,11 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 661 캐쉬완료 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="661" ImageName="캐쉬완료" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 662 캐쉬완료 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="662" ImageName="캐쉬완료" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
-        </Image_655>
-        <Image_656>
+        </Image_656>
+        <Image_657>
             <Name>캐쉬받기-발할라.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24865,8 +24903,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_656>
-        <Image_657>
+        </Image_657>
+        <Image_658>
             <Name>발할라</Name>
             <Rect>(772, 385, 38, 14)</Rect>
             <ROI>(752, 90, 64, 401)</ROI>
@@ -24897,8 +24935,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_657>
-        <Image_658>
+        </Image_658>
+        <Image_659>
             <Name>일차1라인</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(71, 297, 631, 22)</ROI>
@@ -24932,11 +24970,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 658 일차2라인 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="658" ImageName="일차2라인" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 659 일차2라인 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="659" ImageName="일차2라인" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_658>
-        <Image_659>
+        </Image_659>
+        <Image_660>
             <Name>일차2라인</Name>
             <Rect>(686, 302, 10, 8)</Rect>
             <ROI>(73, 398, 631, 23)</ROI>
@@ -24970,11 +25008,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 658 일차2라인 0 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="658" ImageName="일차2라인" Enable="0" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 659 일차2라인 0 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="659" ImageName="일차2라인" Enable="0" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_659>
-        <Image_660>
+        </Image_660>
+        <Image_661>
             <Name>팝업종료(4)</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -24999,8 +25037,8 @@
                 <Param>Mouse( 0 0 1  1 712 228 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="712" Coord_y1="228" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_660>
-        <Image_661>
+        </Image_661>
+        <Image_662>
             <Name>추석-캐쉬종료(2)</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25016,11 +25054,11 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 643 캐쉬받기-추석 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="643" ImageName="캐쉬받기-추석" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 644 캐쉬받기-추석 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="644" ImageName="캐쉬받기-추석" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
-        </Image_661>
-        <Image_662>
+        </Image_662>
+        <Image_663>
             <Name>캐쉬완료.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25033,8 +25071,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_662>
-        <Image_663>
+        </Image_663>
+        <Image_664>
             <Name>캐쉬창닫기</Name>
             <Rect>(494, 46, 30, 15)</Rect>
             <ROI>(494, 46, 30, 15)</ROI>
@@ -25065,8 +25103,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_663>
-        <Image_664>
+        </Image_664>
+        <Image_665>
             <Name>캐쉬창닫기_확인대기</Name>
             <Rect>(494, 46, 30, 15)</Rect>
             <ROI>(494, 46, 30, 15)</ROI>
@@ -25100,8 +25138,8 @@
             <Act_4>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 663 캐쉬창닫기_확인대기 5 )</Param>
-                <Attr ImageSelect="663" ImageName="캐쉬창닫기_확인대기" GotoCount="5"/>
+                <Param>Goto( 664 캐쉬창닫기_확인대기 5 )</Param>
+                <Attr ImageSelect="664" ImageName="캐쉬창닫기_확인대기" GotoCount="5"/>
             </Act_4>
             <Act_5>
                 <Name>인식 실패시</Name>
@@ -25112,11 +25150,11 @@
             <Act_6>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 664 인벤보기 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="664" ImageName="인벤보기" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 665 인벤보기 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="665" ImageName="인벤보기" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
-        </Image_664>
-        <Image_665>
+        </Image_665>
+        <Image_666>
             <Name>인벤보기.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25129,8 +25167,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_665>
-        <Image_666>
+        </Image_666>
+        <Image_667>
             <Name>인벤대기</Name>
             <Rect>(862, 14, 7, 22)</Rect>
             <ROI>(862, 14, 7, 22)</ROI>
@@ -25161,8 +25199,8 @@
                 <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_666>
-        <Image_667>
+        </Image_667>
+        <Image_668>
             <Name>초기자동장착</Name>
             <Rect>(866, 502, 49, 13)</Rect>
             <ROI>(866, 502, 49, 13)</ROI>
@@ -25193,8 +25231,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_667>
-        <Image_668>
+        </Image_668>
+        <Image_669>
             <Name>소환카드여부</Name>
             <Rect>(679, 111, 46, 15)</Rect>
             <ROI>(607, 102, 349, 354)</ROI>
@@ -25225,8 +25263,8 @@
                 <Param>Delay( 0 3.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="3" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_668>
-        <Image_669>
+        </Image_669>
+        <Image_670>
             <Name>인벤드래그</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25260,11 +25298,11 @@
             <Act_4>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 667 소환카드여부 1 )</Param>
-                <Attr ImageSelect="667" ImageName="소환카드여부" GotoCount="1"/>
+                <Param>Goto( 668 소환카드여부 1 )</Param>
+                <Attr ImageSelect="668" ImageName="소환카드여부" GotoCount="1"/>
             </Act_4>
-        </Image_669>
-        <Image_670>
+        </Image_670>
+        <Image_671>
             <Name>다음순서이동</Name>
             <Rect>(14, 10, 20, 30)</Rect>
             <ROI>(14, 10, 20, 30)</ROI>
@@ -25292,8 +25330,8 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 670 종료후서버선택이동 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="670" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 671 종료후서버선택이동 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="671" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>인식 실패시</Name>
@@ -25310,11 +25348,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 665 인벤대기 2 )</Param>
-                <Attr ImageSelect="665" ImageName="인벤대기" GotoCount="2"/>
+                <Param>Goto( 666 인벤대기 2 )</Param>
+                <Attr ImageSelect="666" ImageName="인벤대기" GotoCount="2"/>
             </Act_6>
-        </Image_670>
-        <Image_671>
+        </Image_671>
+        <Image_672>
             <Name>종료후서버선택이동.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25327,8 +25365,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_671>
-        <Image_672>
+        </Image_672>
+        <Image_673>
             <Name>옵션준비</Name>
             <Rect>(14, 10, 20, 30)</Rect>
             <ROI>(14, 10, 20, 30)</ROI>
@@ -25359,8 +25397,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_672>
-        <Image_673>
+        </Image_673>
+        <Image_674>
             <Name>옵션메뉴</Name>
             <Rect>(911, 13, 24, 22)</Rect>
             <ROI>(911, 13, 24, 22)</ROI>
@@ -25406,11 +25444,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 673 아이콘-캐릭터변경 5 )</Param>
-                <Attr ImageSelect="673" ImageName="아이콘-캐릭터변경" GotoCount="5"/>
+                <Param>Goto( 674 아이콘-캐릭터변경 5 )</Param>
+                <Attr ImageSelect="674" ImageName="아이콘-캐릭터변경" GotoCount="5"/>
             </Act_6>
-        </Image_673>
-        <Image_674>
+        </Image_674>
+        <Image_675>
             <Name>아이콘-캐릭터변경</Name>
             <Rect>(738, 464, 21, 24)</Rect>
             <ROI>(738, 464, 21, 24)</ROI>
@@ -25450,11 +25488,11 @@
             <Act_5>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 670 종료후서버선택이동 5 )</Param>
-                <Attr ImageSelect="670" ImageName="종료후서버선택이동" GotoCount="5"/>
+                <Param>Goto( 671 종료후서버선택이동 5 )</Param>
+                <Attr ImageSelect="671" ImageName="종료후서버선택이동" GotoCount="5"/>
             </Act_5>
-        </Image_674>
-        <Image_675>
+        </Image_675>
+        <Image_676>
             <Name>팝업-캐릭터나감</Name>
             <Rect>(366, 261, 93, 25)</Rect>
             <ROI>(366, 261, 93, 25)</ROI>
@@ -25488,11 +25526,11 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 675 백키-메인화면 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="675" ImageName="백키-메인화면" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 676 백키-메인화면 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="676" ImageName="백키-메인화면" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
-        </Image_675>
-        <Image_676>
+        </Image_676>
+        <Image_677>
             <Name>백키-메인화면</Name>
             <Rect>(13, 14, 30, 27)</Rect>
             <ROI>(13, 14, 30, 27)</ROI>
@@ -25544,11 +25582,11 @@
             <Act_7>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 671 옵션준비 5 )</Param>
-                <Attr ImageSelect="671" ImageName="옵션준비" GotoCount="5"/>
+                <Param>Goto( 672 옵션준비 5 )</Param>
+                <Attr ImageSelect="672" ImageName="옵션준비" GotoCount="5"/>
             </Act_7>
-        </Image_676>
-        <Image_677>
+        </Image_677>
+        <Image_678>
             <Name>메인화면확인</Name>
             <Rect>(876, 450, 31, 31)</Rect>
             <ROI>(876, 450, 31, 31)</ROI>
@@ -25576,8 +25614,8 @@
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 679 ==서버이동하기 1 )</Param>
-                <Attr ImageSelect="679" ImageName="==서버이동하기" GotoCount="1"/>
+                <Param>Goto( 680 ==서버이동하기 1 )</Param>
+                <Attr ImageSelect="680" ImageName="==서버이동하기" GotoCount="1"/>
             </Act_3>
             <Act_4>
                 <Name>인식 실패시</Name>
@@ -25594,11 +25632,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 675 백키-메인화면 5 )</Param>
-                <Attr ImageSelect="675" ImageName="백키-메인화면" GotoCount="5"/>
+                <Param>Goto( 676 백키-메인화면 5 )</Param>
+                <Attr ImageSelect="676" ImageName="백키-메인화면" GotoCount="5"/>
             </Act_6>
-        </Image_677>
-        <Image_678>
+        </Image_678>
+        <Image_679>
             <Name>무한대기</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25617,8 +25655,8 @@
                 <Param>Delay( 0 1000.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1000" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
-        </Image_678>
-        <Image_679>
+        </Image_679>
+        <Image_680>
             <Name>4시대기</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25637,8 +25675,8 @@
                 <Param>Delay( 0 3600.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="3600" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
-        </Image_679>
-        <Image_680>
+        </Image_680>
+        <Image_681>
             <Name>==서버이동하기.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25651,8 +25689,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_680>
-        <Image_681>
+        </Image_681>
+        <Image_682>
             <Name>초기화-서버이동</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25671,8 +25709,8 @@
                 <Param>Script( 초기화-서버이동_v5eq8.lua -- 이 초기화 변수는  시작 액션으로 : 시작이후 비활성화. \n iteration_no = 0\n server_next_no = 0 -- init \n -- )</Param>
                 <Attr LuaFile="초기화-서버이동_v5eq8.lua" Text="-- 이 초기화 변수는  시작 액션으로 : 시작이후 비활성화. \n iteration_no = 0\n server_next_no = 0 -- init \n --"/>
             </Act_1>
-        </Image_681>
-        <Image_682>
+        </Image_682>
+        <Image_683>
             <Name>첫실행화면확인</Name>
             <Rect>(808, 483, 62, 21)</Rect>
             <ROI>(808, 483, 62, 21)</ROI>
@@ -25709,8 +25747,8 @@
                 <Param>Goto( 631 ==캐쉬받기시작 1 )</Param>
                 <Attr ImageSelect="631" ImageName="==캐쉬받기시작" GotoCount="1"/>
             </Act_4>
-        </Image_682>
-        <Image_683>
+        </Image_683>
+        <Image_684>
             <Name>인게임확인-나가기</Name>
             <Rect>(923, 238, 12, 12)</Rect>
             <ROI>(923, 238, 12, 12)</ROI>
@@ -25738,17 +25776,17 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 670 종료후서버선택이동 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="670" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 671 종료후서버선택이동 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="671" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 670 종료후서버선택이동 1 )</Param>
-                <Attr ImageSelect="670" ImageName="종료후서버선택이동" GotoCount="1"/>
+                <Param>Goto( 671 종료후서버선택이동 1 )</Param>
+                <Attr ImageSelect="671" ImageName="종료후서버선택이동" GotoCount="1"/>
             </Act_4>
-        </Image_683>
-        <Image_684>
+        </Image_684>
+        <Image_685>
             <Name>서버변경창나가기</Name>
             <Rect>(451, 46, 56, 13)</Rect>
             <ROI>(451, 46, 56, 13)</ROI>
@@ -25773,8 +25811,8 @@
                 <Param>Mouse( 0 0 1  1 903 53 0 0  5 5  0.000000 0.000000  1.000000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="903" Coord_y1="53" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1" Iter="1"/>
             </Act_2>
-        </Image_684>
-        <Image_685>
+        </Image_685>
+        <Image_686>
             <Name>실행첫화면</Name>
             <Rect>(105, 380, 25, 11)</Rect>
             <ROI>(105, 380, 25, 11)</ROI>
@@ -25820,11 +25858,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 681 첫실행화면확인 3 )</Param>
-                <Attr ImageSelect="681" ImageName="첫실행화면확인" GotoCount="3"/>
+                <Param>Goto( 682 첫실행화면확인 3 )</Param>
+                <Attr ImageSelect="682" ImageName="첫실행화면확인" GotoCount="3"/>
             </Act_6>
-        </Image_685>
-        <Image_686>
+        </Image_686>
+        <Image_687>
             <Name>서버이름</Name>
             <Rect>(98, 440, 85, 28)</Rect>
             <ROI>(98, 440, 85, 28)</ROI>
@@ -25849,8 +25887,8 @@
                 <Param>Script( 서버이름_ins3i.lua -- 서버 OCR 없을때 서버변경창임. \n \n if ( server_cur_name == nil or  server_cur_name == "") then \n 		GotoImage(true, '첫실행화면확인')\n 		PassAllAct()\n 		return\n end  )</Param>
                 <Attr LuaFile="서버이름_ins3i.lua" Text="-- 서버 OCR 없을때 서버변경창임. \n \n if ( server_cur_name == nil or  server_cur_name == &quot;&quot;) then \n 		GotoImage(true, &apos;첫실행화면확인&apos;)\n 		PassAllAct()\n 		return\n end "/>
             </Act_2>
-        </Image_686>
-        <Image_687>
+        </Image_687>
+        <Image_688>
             <Name>GetNextServer</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25869,8 +25907,8 @@
                 <Param>Script( GetNextServer_fqwfm.lua -- sel nextt server\n --server_cur_name = '하하'\n --server_cur_no = 1\n \n \n -- TODO: \n -- 1 . 전체 서버 종료 조건 확인. -&gt;  멈춤. 대기로. --&gt; 4시 초기화. ( 단, 메인캐릭 서버 접속해야함. ) \n -- 2 )</Param>
                 <Attr LuaFile="GetNextServer_fqwfm.lua" Text="-- sel nextt server\n --server_cur_name = &apos;하하&apos;\n --server_cur_no = 1\n \n \n -- TODO: \n -- 1 . 전체 서버 종료 조건 확인. -&gt;  멈춤. 대기로. --&gt; 4시 초기화. ( 단, 메인캐릭 서버 접속해야함. ) \n -- 2"/>
             </Act_1>
-        </Image_687>
-        <Image_688>
+        </Image_688>
+        <Image_689>
             <Name>서버선택바클릭</Name>
             <Rect>(106, 379, 23, 13)</Rect>
             <ROI>(106, 379, 23, 13)</ROI>
@@ -25907,8 +25945,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_4>
-        </Image_688>
-        <Image_689>
+        </Image_689>
+        <Image_690>
             <Name>서버변경창</Name>
             <Rect>(451, 46, 56, 13)</Rect>
             <ROI>(451, 46, 56, 13)</ROI>
@@ -25936,11 +25974,11 @@
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 687 서버선택바클릭 5 )</Param>
-                <Attr ImageSelect="687" ImageName="서버선택바클릭" GotoCount="5"/>
+                <Param>Goto( 688 서버선택바클릭 5 )</Param>
+                <Attr ImageSelect="688" ImageName="서버선택바클릭" GotoCount="5"/>
             </Act_3>
-        </Image_689>
-        <Image_690>
+        </Image_690>
+        <Image_691>
             <Name>서버1그룹얻기</Name>
             <Rect>(111, 443, 66, 18)</Rect>
             <ROI>(70, 145, 123, 43)</ROI>
@@ -25959,8 +25997,8 @@
                 <Param>Script( 서버1그룹얻기_a807x.lua -- get g1 name\n  )</Param>
                 <Attr LuaFile="서버1그룹얻기_a807x.lua" Text="-- get g1 name\n "/>
             </Act_1>
-        </Image_690>
-        <Image_691>
+        </Image_691>
+        <Image_692>
             <Name>서버2그룹얻기</Name>
             <Rect>(111, 443, 66, 18)</Rect>
             <ROI>(79, 321, 113, 45)</ROI>
@@ -25979,8 +26017,8 @@
                 <Param>Script( 서버2그룹얻기_mugjx.lua -- )</Param>
                 <Attr LuaFile="서버2그룹얻기_mugjx.lua" Text="--"/>
             </Act_1>
-        </Image_691>
-        <Image_692>
+        </Image_692>
+        <Image_693>
             <Name>서버이름비교1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -25999,8 +26037,8 @@
                 <Param>Script( 서버이름비교1_i7fam.lua -- 서버 이름 추출\n \n server_g1_name = string.gsub(server_1_1, "%d", "")\n server_g1_no = string.gsub(server_1_1, "%D", "")\n  print(' G1 : server '..server_g1_name..' No :'..server_g1_no)\n  \n   \ )</Param>
                 <Attr LuaFile="서버이름비교1_i7fam.lua" Text="-- 서버 이름 추출\n \n server_g1_name = string.gsub(server_1_1, &quot;%d&quot;, &quot;&quot;)\n server_g1_no = string.gsub(server_1_1, &quot;%D&quot;, &quot;&quot;)\n  print(&apos; G1 : server &apos;..server_g1_name..&apos; No :&apos;..server_g1_no)\n  \n   \"/>
             </Act_1>
-        </Image_692>
-        <Image_693>
+        </Image_693>
+        <Image_694>
             <Name>다음서버클릭</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26019,8 +26057,8 @@
                 <Param>Script( 다음서버클릭_y7251.lua -- click next server in serverlist window\n ---------------------------\n server_coodi_g_x = 143   -- 316 \n server_coodi_g_y = 170   \n -- y : g2 :350 420 \n  -- 현재 서버 그룹 비교 \n function Clic )</Param>
                 <Attr LuaFile="다음서버클릭_y7251.lua" Text="-- click next server in serverlist window\n ---------------------------\n server_coodi_g_x = 143   -- 316 \n server_coodi_g_y = 170   \n -- y : g2 :350 420 \n  -- 현재 서버 그룹 비교 \n function Clic"/>
             </Act_1>
-        </Image_693>
-        <Image_694>
+        </Image_694>
+        <Image_695>
             <Name>서버그룹드래그다운</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26048,11 +26086,11 @@
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 688 서버변경창 1000 )</Param>
-                <Attr ImageSelect="688" ImageName="서버변경창" GotoCount="1000"/>
+                <Param>Goto( 689 서버변경창 1000 )</Param>
+                <Attr ImageSelect="689" ImageName="서버변경창" GotoCount="1000"/>
             </Act_3>
-        </Image_694>
-        <Image_695>
+        </Image_695>
+        <Image_696>
             <Name>생성제한서버처리</Name>
             <Rect>(338, 96, 25, 16)</Rect>
             <ROI>(338, 96, 25, 16)</ROI>
@@ -26074,8 +26112,8 @@
             <Act_2>
                 <Name>멀티 이미지 인식</Name>
                 <Enable>1</Enable>
-                <Param>Multi( 1  0  688 서버변경창 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
-                <Attr Op="1" ImageNotBits="0" S0="688" N0="서버변경창"/>
+                <Param>Multi( 1  0  689 서버변경창 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
+                <Attr Op="1" ImageNotBits="0" S0="689" N0="서버변경창"/>
             </Act_2>
             <Act_3>
                 <Name>마우스 입력</Name>
@@ -26098,11 +26136,11 @@
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 687 서버선택바클릭 5 )</Param>
-                <Attr ImageSelect="687" ImageName="서버선택바클릭" GotoCount="5"/>
+                <Param>Goto( 688 서버선택바클릭 5 )</Param>
+                <Attr ImageSelect="688" ImageName="서버선택바클릭" GotoCount="5"/>
             </Act_6>
-        </Image_695>
-        <Image_696>
+        </Image_696>
+        <Image_697>
             <Name>스크롤바닥도착</Name>
             <Rect>(451, 46, 56, 13)</Rect>
             <ROI>(451, 46, 56, 13)</ROI>
@@ -26136,14 +26174,14 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 695 스크롤바닥도착 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="695" ImageName="스크롤바닥도착" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 696 스크롤바닥도착 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="696" ImageName="스크롤바닥도착" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 681 첫실행화면확인 5 )</Param>
-                <Attr ImageSelect="681" ImageName="첫실행화면확인" GotoCount="5"/>
+                <Param>Goto( 682 첫실행화면확인 5 )</Param>
+                <Attr ImageSelect="682" ImageName="첫실행화면확인" GotoCount="5"/>
             </Act_5>
             <Act_6>
                 <Name>인식 실패시</Name>
@@ -26154,17 +26192,17 @@
             <Act_7>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 695 스크롤바닥도착 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="695" ImageName="스크롤바닥도착" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 696 스크롤바닥도착 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="696" ImageName="스크롤바닥도착" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
             <Act_8>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 681 첫실행화면확인 5 )</Param>
-                <Attr ImageSelect="681" ImageName="첫실행화면확인" GotoCount="5"/>
+                <Param>Goto( 682 첫실행화면확인 5 )</Param>
+                <Attr ImageSelect="682" ImageName="첫실행화면확인" GotoCount="5"/>
             </Act_8>
-        </Image_696>
-        <Image_697>
+        </Image_697>
+        <Image_698>
             <Name>Test-반복</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26192,11 +26230,11 @@
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 681 첫실행화면확인 90 )</Param>
-                <Attr ImageSelect="681" ImageName="첫실행화면확인" GotoCount="90"/>
+                <Param>Goto( 682 첫실행화면확인 90 )</Param>
+                <Attr ImageSelect="682" ImageName="첫실행화면확인" GotoCount="90"/>
             </Act_3>
-        </Image_697>
-        <Image_698>
+        </Image_698>
+        <Image_699>
             <Name>서버진입시작</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26224,8 +26262,8 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 698 이벤트수령시작 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="698" ImageName="이벤트수령시작" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 699 이벤트수령시작 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="699" ImageName="이벤트수령시작" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>멀티 이미지 인식</Name>
@@ -26260,11 +26298,11 @@
             <Act_9>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 681 첫실행화면확인 8 )</Param>
-                <Attr ImageSelect="681" ImageName="첫실행화면확인" GotoCount="8"/>
+                <Param>Goto( 682 첫실행화면확인 8 )</Param>
+                <Attr ImageSelect="682" ImageName="첫실행화면확인" GotoCount="8"/>
             </Act_9>
-        </Image_698>
-        <Image_699>
+        </Image_699>
+        <Image_700>
             <Name>이벤트수령시작</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26283,8 +26321,8 @@
                 <Param>Enable( 631 ==캐쉬받기시작 1 1  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="631" ImageName="==캐쉬받기시작" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
-        </Image_699>
-        <Image_700>
+        </Image_700>
+        <Image_701>
             <Name>서버선택종료대기</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26303,8 +26341,8 @@
                 <Param>Delay( 0 10000.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="10000" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
-        </Image_700>
-        <Image_701>
+        </Image_701>
+        <Image_702>
             <Name>구분하기기기1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26323,8 +26361,8 @@
                 <Param>Delay( 0 1000.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1000" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
-        </Image_701>
-        <Image_702>
+        </Image_702>
+        <Image_703>
             <Name>==신캐-버프상자까기</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26340,41 +26378,41 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 702 인벤상자까기 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="702" ImageName="인벤상자까기" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 703 인벤상자까기 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="703" ImageName="인벤상자까기" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 722 신캐-물약버프구매 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="722" ImageName="신캐-물약버프구매" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 723 신캐-물약버프구매 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="723" ImageName="신캐-물약버프구매" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 743 퀵슬롯설정 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="743" ImageName="퀵슬롯설정" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 744 퀵슬롯설정 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="744" ImageName="퀵슬롯설정" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 757 신캐우편수령 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="757" ImageName="신캐우편수령" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 758 신캐우편수령 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="758" ImageName="신캐우편수령" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 활성/비활성</Name>
                 <Enable>0</Enable>
-                <Param>Enable( 770 무한대기(2) 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="770" ImageName="무한대기(2)" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 771 4시서버이동시작 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="771" ImageName="4시서버이동시작" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 765 신캐버프후 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="765" ImageName="신캐버프후" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 766 신캐버프후 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="766" ImageName="신캐버프후" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
-        </Image_702>
-        <Image_703>
+        </Image_703>
+        <Image_704>
             <Name>인벤상자까기.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -26387,8 +26425,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_703>
-        <Image_704>
+        </Image_704>
+        <Image_705>
             <Name>가방아이콘(2)</Name>
             <Rect>(863, 16, 5, 16)</Rect>
             <ROI>(863, 16, 5, 16)</ROI>
@@ -26413,8 +26451,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  4 5  0.000000 0.000000  2.000000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="4" Rand_y="5" PressSec1="0" PressSec2="0" Delay="2" Iter="1"/>
             </Act_2>
-        </Image_704>
-        <Image_705>
+        </Image_705>
+        <Image_706>
             <Name>인벤열림(2)</Name>
             <Rect>(926, 469, 11, 13)</Rect>
             <ROI>(926, 469, 11, 13)</ROI>
@@ -26448,8 +26486,8 @@
             <Act_4>
                 <Name>멀티 이미지 인식</Name>
                 <Enable>1</Enable>
-                <Param>Multi( 1  1  745 인벤열림 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
-                <Attr Op="1" ImageNotBits="1" S0="745" N0="인벤열림"/>
+                <Param>Multi( 1  1  746 인벤열림 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
+                <Attr Op="1" ImageNotBits="1" S0="746" N0="인벤열림"/>
             </Act_4>
             <Act_5>
                 <Name>스크립트 입력</Name>
@@ -26457,8 +26495,8 @@
                 <Param>Script( 인벤열림(2)_37z2y.lua -- all skip \n print('가방을 찾을 수 없어 스킵')\n PassAllAct() )</Param>
                 <Attr LuaFile="인벤열림(2)_37z2y.lua" Text="-- all skip \n print(&apos;가방을 찾을 수 없어 스킵&apos;)\n PassAllAct()"/>
             </Act_5>
-        </Image_705>
-        <Image_706>
+        </Image_706>
+        <Image_707>
             <Name>60이벤상자열기</Name>
             <Rect>(816, 113, 47, 41)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -26501,8 +26539,8 @@
                 <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_5>
-        </Image_706>
-        <Image_707>
+        </Image_707>
+        <Image_708>
             <Name>던전상자까기</Name>
             <Rect>(822, 323, 37, 33)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -26563,71 +26601,9 @@
                 <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_8>
-        </Image_707>
-        <Image_708>
-            <Name>던전상자까기(2)</Name>
-            <Rect>(822, 323, 37, 33)</Rect>
-            <ROI>(608, 102, 340, 353)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>1507328</Param1>
-            <Param2>474109</Param2>
-            <Param3>0</Param3>
-            <Param4>1697808493</Param4>
-            <Enable>1</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="60" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="1" ComboPrint="0"/>
-            <ActCount>8</ActCount>
-            <Act_1>
-                <Name>이미지 표시</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>마우스 입력</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  1.000000 2 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1" Iter="2"/>
-            </Act_2>
-            <Act_3>
-                <Name>딜레이(지연)</Name>
-                <Enable>1</Enable>
-                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
-            </Act_3>
-            <Act_4>
-                <Name>마우스 입력</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  1 449 262 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="449" Coord_y1="262" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_4>
-            <Act_5>
-                <Name>마우스 입력</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  1 538 380 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="538" Coord_y1="380" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_5>
-            <Act_6>
-                <Name>딜레이(지연)</Name>
-                <Enable>1</Enable>
-                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
-            </Act_6>
-            <Act_7>
-                <Name>마우스 입력</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  1 538 380 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="538" Coord_y1="380" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_7>
-            <Act_8>
-                <Name>딜레이(지연)</Name>
-                <Enable>1</Enable>
-                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
-            </Act_8>
         </Image_708>
         <Image_709>
-            <Name>던전상자까기(3)</Name>
+            <Name>던전상자까기(2)</Name>
             <Rect>(822, 323, 37, 33)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
             <FullROI>0</FullROI>
@@ -26689,7 +26665,7 @@
             </Act_8>
         </Image_709>
         <Image_710>
-            <Name>던전상자까기(4)</Name>
+            <Name>던전상자까기(3)</Name>
             <Rect>(822, 323, 37, 33)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
             <FullROI>0</FullROI>
@@ -26751,6 +26727,68 @@
             </Act_8>
         </Image_710>
         <Image_711>
+            <Name>던전상자까기(4)</Name>
+            <Rect>(822, 323, 37, 33)</Rect>
+            <ROI>(608, 102, 340, 353)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>1507328</Param1>
+            <Param2>474109</Param2>
+            <Param3>0</Param3>
+            <Param4>1697808493</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="60" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="1" ComboPrint="0"/>
+            <ActCount>8</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  1.000000 2 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1" Iter="2"/>
+            </Act_2>
+            <Act_3>
+                <Name>딜레이(지연)</Name>
+                <Enable>1</Enable>
+                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
+                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
+            </Act_3>
+            <Act_4>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  1 449 262 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="449" Coord_y1="262" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_4>
+            <Act_5>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  1 538 380 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="538" Coord_y1="380" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_5>
+            <Act_6>
+                <Name>딜레이(지연)</Name>
+                <Enable>1</Enable>
+                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
+                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
+            </Act_6>
+            <Act_7>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  1 538 380 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="538" Coord_y1="380" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_7>
+            <Act_8>
+                <Name>딜레이(지연)</Name>
+                <Enable>1</Enable>
+                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
+                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
+            </Act_8>
+        </Image_711>
+        <Image_712>
             <Name>모래시계</Name>
             <Rect>(835, 121, 25, 36)</Rect>
             <ROI>(607, 102, 340, 351)</ROI>
@@ -26781,8 +26819,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_711>
-        <Image_712>
+        </Image_712>
+        <Image_713>
             <Name>추석시계</Name>
             <Rect>(895, 111, 18, 26)</Rect>
             <ROI>(605, 99, 341, 359)</ROI>
@@ -26813,8 +26851,8 @@
                 <Param>Delay( 0 0.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="0.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_712>
-        <Image_713>
+        </Image_713>
+        <Image_714>
             <Name>주문서상자열기</Name>
             <Rect>(892, 126, 24, 27)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -26875,8 +26913,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_8>
-        </Image_713>
-        <Image_714>
+        </Image_714>
+        <Image_715>
             <Name>음식바구니열기</Name>
             <Rect>(760, 255, 30, 17)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -26937,8 +26975,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_8>
-        </Image_714>
-        <Image_715>
+        </Image_715>
+        <Image_716>
             <Name>스킬상자</Name>
             <Rect>(905, 327, 22, 25)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -26993,8 +27031,8 @@
                 <Param>Mouse( 0 0 1  1 549 437 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="549" Coord_y1="437" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_7>
-        </Image_715>
-        <Image_716>
+        </Image_716>
+        <Image_717>
             <Name>스킬두루마리</Name>
             <Rect>(839, 330, 29, 22)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -27055,8 +27093,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_8>
-        </Image_716>
-        <Image_717>
+        </Image_717>
+        <Image_718>
             <Name>신속주문서사용</Name>
             <Rect>(757, 110, 42, 31)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -27087,8 +27125,8 @@
                 <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_717>
-        <Image_718>
+        </Image_718>
+        <Image_719>
             <Name>전투주문서사용</Name>
             <Rect>(835, 121, 16, 25)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -27119,8 +27157,8 @@
                 <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_718>
-        <Image_719>
+        </Image_719>
+        <Image_720>
             <Name>경치주문서사용</Name>
             <Rect>(622, 182, 36, 23)</Rect>
             <ROI>(608, 102, 340, 353)</ROI>
@@ -27151,8 +27189,8 @@
                 <Param>Delay( 0 2.500000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="2.5" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_719>
-        <Image_720>
+        </Image_720>
+        <Image_721>
             <Name>희탈카드</Name>
             <Rect>(690, 114, 35, 47)</Rect>
             <ROI>(601, 100, 351, 360)</ROI>
@@ -27180,11 +27218,11 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 720 소환결과 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="720" ImageName="소환결과" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 721 소환결과 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="721" ImageName="소환결과" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
-        </Image_720>
-        <Image_721>
+        </Image_721>
+        <Image_722>
             <Name>소환결과</Name>
             <Rect>(445, 154, 35, 24)</Rect>
             <ROI>(445, 154, 35, 24)</ROI>
@@ -27242,17 +27280,17 @@
             <Act_8>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 720 소환결과 10 )</Param>
-                <Attr ImageSelect="720" ImageName="소환결과" GotoCount="10"/>
+                <Param>Goto( 721 소환결과 10 )</Param>
+                <Attr ImageSelect="721" ImageName="소환결과" GotoCount="10"/>
             </Act_8>
             <Act_9>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 720 소환결과 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="720" ImageName="소환결과" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 721 소환결과 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="721" ImageName="소환결과" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_9>
-        </Image_721>
-        <Image_722>
+        </Image_722>
+        <Image_723>
             <Name>인벤나가기(2)</Name>
             <Rect>(918, 14, 23, 19)</Rect>
             <ROI>(918, 14, 23, 19)</ROI>
@@ -27280,11 +27318,11 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 702 인벤상자까기 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="702" ImageName="인벤상자까기" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 703 인벤상자까기 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="703" ImageName="인벤상자까기" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
-        </Image_722>
-        <Image_723>
+        </Image_723>
+        <Image_724>
             <Name>신캐-물약버프구매.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -27297,8 +27335,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_723>
-        <Image_724>
+        </Image_724>
+        <Image_725>
             <Name>신캐마을인지확인</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -27338,17 +27376,17 @@
             <Act_5>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 743 퀵슬롯설정 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="743" ImageName="퀵슬롯설정" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 744 퀵슬롯설정 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="744" ImageName="퀵슬롯설정" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 743 퀵슬롯설정 1 )</Param>
-                <Attr ImageSelect="743" ImageName="퀵슬롯설정" GotoCount="1"/>
+                <Param>Goto( 744 퀵슬롯설정 1 )</Param>
+                <Attr ImageSelect="744" ImageName="퀵슬롯설정" GotoCount="1"/>
             </Act_6>
-        </Image_724>
-        <Image_725>
+        </Image_725>
+        <Image_726>
             <Name>신캐버프카메라</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -27388,11 +27426,11 @@
             <Act_5>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 724 신캐버프카메라 3 )</Param>
-                <Attr ImageSelect="724" ImageName="신캐버프카메라" GotoCount="3"/>
+                <Param>Goto( 725 신캐버프카메라 3 )</Param>
+                <Attr ImageSelect="725" ImageName="신캐버프카메라" GotoCount="3"/>
             </Act_5>
-        </Image_725>
-        <Image_726>
+        </Image_726>
+        <Image_727>
             <Name>신캐소모상인</Name>
             <Rect>(0, 0, 24, 24)</Rect>
             <ROI>(667, 402, 128, 104)</ROI>
@@ -27426,20 +27464,20 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 724 신캐버프카메라 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="724" ImageName="신캐버프카메라" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 725 신캐버프카메라 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="725" ImageName="신캐버프카메라" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 725 신캐소모상인 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="725" ImageName="신캐소모상인" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 726 신캐소모상인 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="726" ImageName="신캐소모상인" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 726 신캐소모상점 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="726" ImageName="신캐소모상점" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 727 신캐소모상점 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="727" ImageName="신캐소모상점" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
             <Act_7>
                 <Name>스크립트 입력</Name>
@@ -27447,8 +27485,8 @@
                 <Param>Script( 신캐소모상인_k7bqm.lua eventtick = GetTickCount() )</Param>
                 <Attr LuaFile="신캐소모상인_k7bqm.lua" Text="eventtick = GetTickCount()"/>
             </Act_7>
-        </Image_726>
-        <Image_727>
+        </Image_727>
+        <Image_728>
             <Name>신캐소모상점</Name>
             <Rect>(106, 14, 34, 22)</Rect>
             <ROI>(106, 14, 34, 22)</ROI>
@@ -27461,8 +27499,8 @@
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_727>
-        <Image_728>
+        </Image_728>
+        <Image_729>
             <Name>상점진입확인</Name>
             <Rect>(108, 15, 30, 20)</Rect>
             <ROI>(108, 15, 30, 20)</ROI>
@@ -27502,11 +27540,11 @@
             <Act_5>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 727 상점진입확인 19 )</Param>
-                <Attr ImageSelect="727" ImageName="상점진입확인" GotoCount="19"/>
+                <Param>Goto( 728 상점진입확인 19 )</Param>
+                <Attr ImageSelect="728" ImageName="상점진입확인" GotoCount="19"/>
             </Act_5>
-        </Image_728>
-        <Image_729>
+        </Image_729>
+        <Image_730>
             <Name>신캐스테이크</Name>
             <Rect>(83, 262, 23, 12)</Rect>
             <ROI>(76, 102, 34, 422)</ROI>
@@ -27528,11 +27566,11 @@
             <Act_2>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 729 신캐10자리 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="729" ImageName="신캐10자리" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 730 신캐10자리 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="730" ImageName="신캐10자리" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
-        </Image_729>
-        <Image_730>
+        </Image_730>
+        <Image_731>
             <Name>신캐10자리</Name>
             <Rect>(468, 106, 24, 16)</Rect>
             <ROI>(468, 106, 24, 16)</ROI>
@@ -27575,8 +27613,8 @@
                 <Param>Mouse( 0 0 1  1 545 422 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="545" Coord_y1="422" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_5>
-        </Image_730>
-        <Image_731>
+        </Image_731>
+        <Image_732>
             <Name>신캐벌꿀술</Name>
             <Rect>(83, 338, 23, 12)</Rect>
             <ROI>(78, 102, 35, 422)</ROI>
@@ -27631,8 +27669,8 @@
                 <Param>Enable( 523 상점순간 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="523" ImageName="상점순간" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
-        </Image_731>
-        <Image_732>
+        </Image_732>
+        <Image_733>
             <Name>신캐10자리(6)</Name>
             <Rect>(468, 106, 24, 16)</Rect>
             <ROI>(468, 106, 24, 16)</ROI>
@@ -27675,8 +27713,8 @@
                 <Param>Mouse( 0 0 1  1 545 422 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="545" Coord_y1="422" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_5>
-        </Image_732>
-        <Image_733>
+        </Image_733>
+        <Image_734>
             <Name>신캐연어</Name>
             <Rect>(83, 414, 23, 12)</Rect>
             <ROI>(78, 102, 35, 422)</ROI>
@@ -27731,8 +27769,8 @@
                 <Param>Enable( 523 상점순간 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="523" ImageName="상점순간" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
-        </Image_733>
-        <Image_734>
+        </Image_734>
+        <Image_735>
             <Name>신캐10자리(5)</Name>
             <Rect>(468, 106, 24, 16)</Rect>
             <ROI>(468, 106, 24, 16)</ROI>
@@ -27775,8 +27813,8 @@
                 <Param>Mouse( 0 0 1  1 545 422 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="545" Coord_y1="422" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_5>
-        </Image_734>
-        <Image_735>
+        </Image_735>
+        <Image_736>
             <Name>신캐사리풀</Name>
             <Rect>(83, 377, 23, 12)</Rect>
             <ROI>(78, 102, 35, 422)</ROI>
@@ -27831,8 +27869,8 @@
                 <Param>Enable( 523 상점순간 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="523" ImageName="상점순간" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
-        </Image_735>
-        <Image_736>
+        </Image_736>
+        <Image_737>
             <Name>신캐10자리(7)</Name>
             <Rect>(468, 106, 24, 16)</Rect>
             <ROI>(468, 106, 24, 16)</ROI>
@@ -27875,8 +27913,8 @@
                 <Param>Mouse( 0 0 1  1 545 422 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="545" Coord_y1="422" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_5>
-        </Image_736>
-        <Image_737>
+        </Image_737>
+        <Image_738>
             <Name>신캐물약구매</Name>
             <Rect>(80, 121, 25, 16)</Rect>
             <ROI>(76, 102, 34, 422)</ROI>
@@ -27931,8 +27969,8 @@
                 <Param>Enable( 523 상점순간 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="523" ImageName="상점순간" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
-        </Image_737>
-        <Image_738>
+        </Image_738>
+        <Image_739>
             <Name>신캐100자리</Name>
             <Rect>(468, 106, 24, 16)</Rect>
             <ROI>(468, 106, 24, 16)</ROI>
@@ -27963,8 +28001,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_3>
-        </Image_738>
-        <Image_739>
+        </Image_739>
+        <Image_740>
             <Name>신캐상점스크롤다운</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -27989,8 +28027,8 @@
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_2>
-        </Image_739>
-        <Image_740>
+        </Image_740>
+        <Image_741>
             <Name>신캐상점순간</Name>
             <Rect>(83, 240, 23, 12)</Rect>
             <ROI>(78, 102, 35, 422)</ROI>
@@ -28045,8 +28083,8 @@
                 <Param>Mouse( 2 0 1  1 135 345 135 269  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="2" Button="0" Speed="1" Base="1" Coord_x1="135" Coord_y1="345" Coord_x2="135" Coord_y2="269" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_7>
-        </Image_740>
-        <Image_741>
+        </Image_741>
+        <Image_742>
             <Name>신캐나가기(상점)</Name>
             <Rect>(0, 0, 10, 12)</Rect>
             <ROI>(930, 19, 10, 12)</ROI>
@@ -28080,8 +28118,8 @@
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 722 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="722" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 723 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="723" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 활성/비활성</Name>
@@ -28140,11 +28178,11 @@
             <Act_14>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 722 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="722" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 723 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="723" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_14>
-        </Image_741>
-        <Image_742>
+        </Image_742>
+        <Image_743>
             <Name>신캐-다시시도(상점)</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28187,8 +28225,8 @@
                 <Param>Script( 신캐-다시시도(상점)_bylmo.lua eventtick = GetTickCount() )</Param>
                 <Attr LuaFile="신캐-다시시도(상점)_bylmo.lua" Text="eventtick = GetTickCount()"/>
             </Act_5>
-        </Image_742>
-        <Image_743>
+        </Image_743>
+        <Image_744>
             <Name>신캐월드결과</Name>
             <Rect>(524, 89, 61, 35)</Rect>
             <ROI>(522, 87, 65, 39)</ROI>
@@ -28207,8 +28245,8 @@
                 <Param>Mouse( 0 0 1  1 140 480 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="140" Coord_y1="480" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_1>
-        </Image_743>
-        <Image_744>
+        </Image_744>
+        <Image_745>
             <Name>퀵슬롯설정.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28221,8 +28259,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_744>
-        <Image_745>
+        </Image_745>
+        <Image_746>
             <Name>가방아이콘</Name>
             <Rect>(863, 16, 5, 16)</Rect>
             <ROI>(863, 16, 5, 16)</ROI>
@@ -28247,8 +28285,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  4 5  0.000000 0.000000  1.000000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="4" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1" Iter="1"/>
             </Act_2>
-        </Image_745>
-        <Image_746>
+        </Image_746>
+        <Image_747>
             <Name>인벤열림</Name>
             <Rect>(926, 469, 11, 13)</Rect>
             <ROI>(926, 469, 11, 13)</ROI>
@@ -28282,8 +28320,8 @@
             <Act_4>
                 <Name>멀티 이미지 인식</Name>
                 <Enable>1</Enable>
-                <Param>Multi( 1  1  745 인벤열림 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
-                <Attr Op="1" ImageNotBits="1" S0="745" N0="인벤열림"/>
+                <Param>Multi( 1  1  746 인벤열림 -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null -1 null )</Param>
+                <Attr Op="1" ImageNotBits="1" S0="746" N0="인벤열림"/>
             </Act_4>
             <Act_5>
                 <Name>스크립트 입력</Name>
@@ -28291,8 +28329,8 @@
                 <Param>Script( 인벤열림_bjl7e.lua -- all skip \n print('가방을 찾을 수 없어 스킵')\n PassAllAct() )</Param>
                 <Attr LuaFile="인벤열림_bjl7e.lua" Text="-- all skip \n print(&apos;가방을 찾을 수 없어 스킵&apos;)\n PassAllAct()"/>
             </Act_5>
-        </Image_746>
-        <Image_747>
+        </Image_747>
+        <Image_748>
             <Name>퀵슬롯</Name>
             <Rect>(746, 501, 10, 15)</Rect>
             <ROI>(746, 501, 10, 15)</ROI>
@@ -28317,8 +28355,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_747>
-        <Image_748>
+        </Image_748>
+        <Image_749>
             <Name>등록완료확인</Name>
             <Rect>(634, 410, 18, 18)</Rect>
             <ROI>(892, 401, 38, 33)</ROI>
@@ -28340,32 +28378,32 @@
             <Act_2>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 748 고기등록 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="748" ImageName="고기등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 749 고기등록 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="749" ImageName="고기등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 749 맥주등록 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="749" ImageName="맥주등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 750 맥주등록 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="750" ImageName="맥주등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 750 연어등록 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="750" ImageName="연어등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 751 연어등록 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="751" ImageName="연어등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 751 잎등록 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="751" ImageName="잎등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 752 잎등록 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="752" ImageName="잎등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 756 퀵슬롯활성 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="756" ImageName="퀵슬롯활성" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 757 퀵슬롯활성 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="757" ImageName="퀵슬롯활성" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
             <Act_7>
                 <Name>인식 실패시</Name>
@@ -28376,11 +28414,11 @@
             <Act_8>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 752 순줌등록확인 1 )</Param>
-                <Attr ImageSelect="752" ImageName="순줌등록확인" GotoCount="1"/>
+                <Param>Goto( 753 순줌등록확인 1 )</Param>
+                <Attr ImageSelect="753" ImageName="순줌등록확인" GotoCount="1"/>
             </Act_8>
-        </Image_748>
-        <Image_749>
+        </Image_749>
+        <Image_750>
             <Name>고기등록</Name>
             <Rect>(769, 190, 31, 25)</Rect>
             <ROI>(605, 102, 345, 274)</ROI>
@@ -28411,8 +28449,8 @@
                 <Param>Mouse( 0 0 1  1 711 414 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="711" Coord_y1="414" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_3>
-        </Image_749>
-        <Image_750>
+        </Image_750>
+        <Image_751>
             <Name>맥주등록</Name>
             <Rect>(844, 199, 22, 18)</Rect>
             <ROI>(605, 102, 345, 274)</ROI>
@@ -28443,8 +28481,8 @@
                 <Param>Mouse( 0 0 1  1 778 412 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="778" Coord_y1="412" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_3>
-        </Image_750>
-        <Image_751>
+        </Image_751>
+        <Image_752>
             <Name>연어등록</Name>
             <Rect>(888, 201, 26, 16)</Rect>
             <ROI>(605, 102, 345, 274)</ROI>
@@ -28475,8 +28513,8 @@
                 <Param>Mouse( 0 0 1  1 843 414 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="843" Coord_y1="414" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_3>
-        </Image_751>
-        <Image_752>
+        </Image_752>
+        <Image_753>
             <Name>잎등록</Name>
             <Rect>(893, 205, 19, 16)</Rect>
             <ROI>(605, 102, 345, 274)</ROI>
@@ -28507,8 +28545,8 @@
                 <Param>Mouse( 0 0 1  1 909 419 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="909" Coord_y1="419" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_3>
-        </Image_752>
-        <Image_753>
+        </Image_753>
+        <Image_754>
             <Name>순줌등록확인</Name>
             <Rect>(634, 410, 18, 18)</Rect>
             <ROI>(630, 405, 28, 30)</ROI>
@@ -28530,8 +28568,8 @@
             <Act_2>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 753 순줌등록 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="753" ImageName="순줌등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 754 순줌등록 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="754" ImageName="순줌등록" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
                 <Name>인식 실패시</Name>
@@ -28542,11 +28580,11 @@
             <Act_4>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 754 퀵등록닫기 1 )</Param>
-                <Attr ImageSelect="754" ImageName="퀵등록닫기" GotoCount="1"/>
+                <Param>Goto( 755 퀵등록닫기 1 )</Param>
+                <Attr ImageSelect="755" ImageName="퀵등록닫기" GotoCount="1"/>
             </Act_4>
-        </Image_753>
-        <Image_754>
+        </Image_754>
+        <Image_755>
             <Name>순줌등록</Name>
             <Rect>(711, 327, 14, 18)</Rect>
             <ROI>(605, 102, 345, 274)</ROI>
@@ -28577,8 +28615,8 @@
                 <Param>Mouse( 0 0 1  1 642 422 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="642" Coord_y1="422" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_3>
-        </Image_754>
-        <Image_755>
+        </Image_755>
+        <Image_756>
             <Name>퀵등록닫기</Name>
             <Rect>(901, 505, 19, 13)</Rect>
             <ROI>(901, 505, 19, 13)</ROI>
@@ -28603,8 +28641,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_755>
-        <Image_756>
+        </Image_756>
+        <Image_757>
             <Name>인벤나가기</Name>
             <Rect>(918, 14, 23, 19)</Rect>
             <ROI>(918, 14, 23, 19)</ROI>
@@ -28629,8 +28667,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_756>
-        <Image_757>
+        </Image_757>
+        <Image_758>
             <Name>퀵슬롯활성</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28673,8 +28711,8 @@
                 <Param>Mouse( 2 0 1  1 582 478 581 519  5 5  0.000000 0.000000  0.000000 1 )</Param>
                 <Attr Input="2" Button="0" Speed="1" Base="1" Coord_x1="582" Coord_y1="478" Coord_x2="581" Coord_y2="519" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0" Iter="1"/>
             </Act_5>
-        </Image_757>
-        <Image_758>
+        </Image_758>
+        <Image_759>
             <Name>신캐우편수령.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28687,8 +28725,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_758>
-        <Image_759>
+        </Image_759>
+        <Image_760>
             <Name>메뉴점(2)</Name>
             <Rect>(0, 0, 4, 4)</Rect>
             <ROI>(942, 8, 4, 4)</ROI>
@@ -28731,8 +28769,8 @@
                 <Param>Enable( 275 우편 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="275" ImageName="우편" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
-        </Image_759>
-        <Image_760>
+        </Image_760>
+        <Image_761>
             <Name>우편점(2)</Name>
             <Rect>(0, 0, 4, 4)</Rect>
             <ROI>(706, 464, 4, 3)</ROI>
@@ -28781,8 +28819,8 @@
                 <Param>Enable( 275 우편 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="275" ImageName="우편" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
-        </Image_760>
-        <Image_761>
+        </Image_761>
+        <Image_762>
             <Name>일반우편(2)</Name>
             <Rect>(0, 0, 22, 10)</Rect>
             <ROI>(858, 506, 22, 10)</ROI>
@@ -28813,8 +28851,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  1.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1.5" Iter="1"/>
             </Act_3>
-        </Image_761>
-        <Image_762>
+        </Image_762>
+        <Image_763>
             <Name>확인(우편)(3)</Name>
             <Rect>(0, 0, 10, 10)</Rect>
             <ROI>(546, 429, 10, 16)</ROI>
@@ -28842,11 +28880,11 @@
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 761 확인(우편)(3) 1 )</Param>
-                <Attr ImageSelect="761" ImageName="확인(우편)(3)" GotoCount="1"/>
+                <Param>Goto( 762 확인(우편)(3) 1 )</Param>
+                <Attr ImageSelect="762" ImageName="확인(우편)(3)" GotoCount="1"/>
             </Act_3>
-        </Image_762>
-        <Image_763>
+        </Image_763>
+        <Image_764>
             <Name>계정우편(2)</Name>
             <Rect>(0, 0, 22, 10)</Rect>
             <ROI>(858, 506, 22, 10)</ROI>
@@ -28877,8 +28915,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  1.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="1.5" Iter="1"/>
             </Act_3>
-        </Image_763>
-        <Image_764>
+        </Image_764>
+        <Image_765>
             <Name>확인(우편)(2)(2)</Name>
             <Rect>(0, 0, 10, 10)</Rect>
             <ROI>(546, 429, 10, 16)</ROI>
@@ -28903,8 +28941,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  2.000000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="2" Iter="1"/>
             </Act_2>
-        </Image_764>
-        <Image_765>
+        </Image_765>
+        <Image_766>
             <Name>나가기(우편)(2)</Name>
             <Rect>(0, 0, 10, 12)</Rect>
             <ROI>(930, 19, 10, 12)</ROI>
@@ -28935,8 +28973,8 @@
                 <Param>Enable( 275 우편 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="275" ImageName="우편" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
-        </Image_765>
-        <Image_766>
+        </Image_766>
+        <Image_767>
             <Name>신캐버프후.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28949,8 +28987,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_766>
-        <Image_767>
+        </Image_767>
+        <Image_768>
             <Name>버프후메인퀘</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -28978,32 +29016,32 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 702 인벤상자까기 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="702" ImageName="인벤상자까기" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 703 인벤상자까기 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="703" ImageName="인벤상자까기" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 722 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="722" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 723 신캐-물약버프구매 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="723" ImageName="신캐-물약버프구매" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 743 퀵슬롯설정 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="743" ImageName="퀵슬롯설정" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 744 퀵슬롯설정 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="744" ImageName="퀵슬롯설정" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 757 신캐우편수령 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="757" ImageName="신캐우편수령" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 758 신캐우편수령 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="758" ImageName="신캐우편수령" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
             <Act_7>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 765 신캐버프후 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="765" ImageName="신캐버프후" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 766 신캐버프후 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="766" ImageName="신캐버프후" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
             <Act_8>
                 <Name>인식 활성/비활성</Name>
@@ -29023,8 +29061,8 @@
                 <Param>Goto( 0 초기설정 1 )</Param>
                 <Attr ImageSelect="0" ImageName="초기설정" GotoCount="1"/>
             </Act_10>
-        </Image_767>
-        <Image_768>
+        </Image_768>
+        <Image_769>
             <Name>신캐버프다음동작</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -29043,8 +29081,8 @@
                 <Param>Delay( 0 1000.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1000" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
-        </Image_768>
-        <Image_769>
+        </Image_769>
+        <Image_770>
             <Name>최신아바타선택</Name>
             <Rect>(0, 0, 52, 16)</Rect>
             <ROI>(404, 31, 75, 46)</ROI>
@@ -29093,8 +29131,8 @@
                 <Param>Mouse( 0 0 1  1 826 493 0 0  5 5  0.000000 0.000000  0.500000 2 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="826" Coord_y1="493" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="2"/>
             </Act_6>
-        </Image_769>
-        <Image_770>
+        </Image_770>
+        <Image_771>
             <Name>최신탈것장착</Name>
             <Rect>(0, 0, 24, 13)</Rect>
             <ROI>(368, 89, 43, 31)</ROI>
@@ -29119,9 +29157,9 @@
                 <Param>Script( 최신탈것장착_omn2t.lua rider = 0 )</Param>
                 <Attr LuaFile="최신탈것장착_omn2t.lua" Text="rider = 0"/>
             </Act_2>
-        </Image_770>
-        <Image_771>
-            <Name>무한대기(2)</Name>
+        </Image_771>
+        <Image_772>
+            <Name>4시서버이동시작</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
             <FullROI>0</FullROI>
@@ -29136,102 +29174,96 @@
             <Act_1>
                 <Name>딜레이(지연)</Name>
                 <Enable>1</Enable>
-                <Param>Delay( 0 420.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="420" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
+                <Param>Delay( 0 1200.000000 0 0 0.000000 )</Param>
+                <Attr DelayMin="0" DelaySec="1200" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
             </Act_1>
             <Act_2>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 679 ==서버이동하기 1 1  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="679" ImageName="==서버이동하기" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 680 ==서버이동하기 1 1  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="680" ImageName="==서버이동하기" Enable="1" DisableCurImage="1" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
                 <Name>인식 순서 변경</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 679 ==서버이동하기 5 )</Param>
-                <Attr ImageSelect="679" ImageName="==서버이동하기" GotoCount="5"/>
+                <Param>Goto( 680 ==서버이동하기 5 )</Param>
+                <Attr ImageSelect="680" ImageName="==서버이동하기" GotoCount="5"/>
             </Act_3>
-        </Image_771>
-        <Image_1>
-            <Name>초기설정</Name>
+        </Image_772>
+        <Image_632>
+            <Name>==캐쉬받기시작</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
             <FullROI>0</FullROI>
-            <Param1>0</Param1>
-            <Param2>0</Param2>
+            <Param1>13303808</Param1>
+            <Param2>539632</Param2>
             <Param3>0</Param3>
-            <Param4>0</Param4>
-            <Enable>0</Enable>
+            <Param4>1697124071</Param4>
+            <Enable>1</Enable>
             <Group>0</Group>
-            <Trg Interval="0.1" CheckInherit1="0" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>11</ActCount>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckActInterval="0" ActIntervalSec="10" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>10</ActCount>
             <Act_1>
-                <Name>스크립트 입력</Name>
+                <Name>마우스 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( 초기설정_w8p7u.lua --------- 변수 설정 ---------         \n -- (수정 후에는 다시 START 눌러주세요)\n -- 앞에 -- 붙어있는건 설명을 위한 주석입니다\n -- 메크로가 인식하지 않습니다\n \n -- [자동퀘스트] 모드 옵션\n -- 1 )</Param>
-                <Attr LuaFile="초기설정_w8p7u.lua" Text="--------- 변수 설정 ---------         \n -- (수정 후에는 다시 START 눌러주세요)\n -- 앞에 -- 붙어있는건 설명을 위한 주석입니다\n -- 메크로가 인식하지 않습니다\n \n -- [자동퀘스트] 모드 옵션\n -- 1"/>
+                <Param>Mouse( 0 0 2  1 503 458 0 0  5 5  0.000000 0.000000  2.000000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="2" Base="1" Coord_x1="503" Coord_y1="458" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="2" Iter="1"/>
             </Act_1>
             <Act_2>
-                <Name>스크립트 입력</Name>
+                <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Script( 초기설정_m45tu.lua -- [자동퀘스트] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\ )</Param>
-                <Attr LuaFile="초기설정_m45tu.lua" Text="-- [자동퀘스트] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\"/>
+                <Param>Enable( 632 서버입장 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="632" ImageName="서버입장" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>스크립트 입력</Name>
-                <Enable>0</Enable>
-                <Param>Script( 초기설정_i9zpi.lua -- [맵이동사냥] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\ )</Param>
-                <Attr LuaFile="초기설정_i9zpi.lua" Text="-- [맵이동사냥] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\"/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 638 캐쉬받기-가을 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="638" ImageName="캐쉬받기-가을" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
-                <Name>스크립트 입력</Name>
-                <Enable>0</Enable>
-                <Param>Script( 초기설정_xgdib.lua -- [이동채집] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  )</Param>
-                <Attr LuaFile="초기설정_xgdib.lua" Text="-- [이동채집] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n "/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 644 캐쉬받기-추석 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="644" ImageName="캐쉬받기-추석" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_4>
             <Act_5>
-                <Name>스크립트 입력</Name>
-                <Enable>0</Enable>
-                <Param>Script( 초기설정_uv789.lua -- [던전사냥] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  )</Param>
-                <Attr LuaFile="초기설정_uv789.lua" Text="-- [던전사냥] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n "/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 650 캐쉬받기-60일 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="650" ImageName="캐쉬받기-60일" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_5>
             <Act_6>
-                <Name>스크립트 입력</Name>
+                <Name>인식 활성/비활성</Name>
                 <Enable>0</Enable>
-                <Param>Script( 초기설정_kuyi5.lua -- [통발] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  Sto )</Param>
-                <Attr LuaFile="초기설정_kuyi5.lua" Text="-- [통발] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n  Sto"/>
+                <Param>Enable( 656 캐쉬받기-발할라 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="656" ImageName="캐쉬받기-발할라" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_6>
             <Act_7>
-                <Name>스크립트 입력</Name>
-                <Enable>0</Enable>
-                <Param>Script( 초기설정_cdgej.lua -- [캐쉬템 받기] 모드                      \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.') )</Param>
-                <Attr LuaFile="초기설정_cdgej.lua" Text="-- [캐쉬템 받기] 모드                      \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)"/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 662 캐쉬완료 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="662" ImageName="캐쉬완료" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_7>
             <Act_8>
-                <Name>스크립트 입력</Name>
-                <Enable>0</Enable>
-                <Param>Script( 초기설정_umur6.lua -- [초기퀘] 모드                 \n \n if(initstep ~= 0) then\n  print('변수 설정에 체크하세요.')\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print('모드는 하나만 선택하세요.')\n  Stop() )</Param>
-                <Attr LuaFile="초기설정_umur6.lua" Text="-- [초기퀘] 모드                 \n \n if(initstep ~= 0) then\n  print(&apos;변수 설정에 체크하세요.&apos;)\n  Stop()\n  return\n end\n \n if(playmode ~= 0) then\n  print(&apos;모드는 하나만 선택하세요.&apos;)\n  Stop()"/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 671 종료후서버선택이동 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="671" ImageName="종료후서버선택이동" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_8>
             <Act_9>
-                <Name>스크립트 입력</Name>
-                <Enable>1</Enable>
-                <Param>Script( 초기설정_xdozi.lua -------- 시스템 변수 --------         \n t = GetTickCount()\n starttick = t\n eventtick = t\n reqtick = t\n rotmovetick = 0\n revivaltick = 0\n pktick = 0\n party_d = 0\n autorestart = 0\n re_start = )</Param>
-                <Attr LuaFile="초기설정_xdozi.lua" Text="-------- 시스템 변수 --------         \n t = GetTickCount()\n starttick = t\n eventtick = t\n reqtick = t\n rotmovetick = 0\n revivaltick = 0\n pktick = 0\n party_d = 0\n autorestart = 0\n re_start ="/>
+                <Name>인식 활성/비활성</Name>
+                <Enable>0</Enable>
+                <Param>Enable( 678 무한대기 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="678" ImageName="무한대기" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_9>
             <Act_10>
-                <Name>인식 순서 변경</Name>
-                <Enable>0</Enable>
-                <Param>Goto( 625 초기설정끝 1 )</Param>
-                <Attr ImageSelect="625" ImageName="초기설정끝" GotoCount="1"/>
-            </Act_10>
-            <Act_11>
-                <Name>스크립트 입력</Name>
+                <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Script( 초기설정_3hw91.lua GotoImage('초기설정끝')\n \n if(restart_mode == 1) then\n  EnableImage(true, '4시초기화')\n end\n \n buff_ret = 0 )</Param>
-                <Attr LuaFile="초기설정_3hw91.lua" Text="GotoImage(&apos;초기설정끝&apos;)\n \n if(restart_mode == 1) then\n  EnableImage(true, &apos;4시초기화&apos;)\n end\n \n buff_ret = 0"/>
-            </Act_11>
-        </Image_1>
+                <Param>Enable( 631 ==캐쉬받기시작 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="631" ImageName="==캐쉬받기시작" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_10>
+        </Image_632>
     </GENERAL>
     <SO>
         <CheckImageName>1</CheckImageName>
