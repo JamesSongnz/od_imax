@@ -2,6 +2,6 @@
 -- skip cur server
 server_cur_no = server_cur_no +1
 
-changeToNextServer()
+getNextServer()
 
 print('====== มฆวั : script : '..server_cur_no)
