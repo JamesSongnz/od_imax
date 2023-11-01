@@ -88,12 +88,23 @@ getNextServer()
 if(server_cur_name=="서버방문완료" and server_next_no==1) then 
 	print('$$$$$$$$$$$$$$ 서버 순환 완료 $$$$$$$$$$$= 던전모드')
 	-- TODO : 다음 작업 구상. 
-	EnableImage(false, '==서버이동하기')
-	EnableImage(false, '==캐쉬받기시작')
+	--EnableImage(false, '==서버이동하기')
+	--EnableImage(false, '==캐쉬받기시작')
+	
 	--EnableImage(true, '메인캐릭로그인')
 	--EnableImage(true, '4시초기화설정')
 	
-	print(' 서버 이동 작업을 완료하여  Stop 합니다. ...  GooD!!')
-	Stop()
-	return
+	--print(' 서버 이동 작업을 완료하여  Stop 합니다. ...  GooD!!')
+	--Stop()
+	--return
+	
+	-- rotation  from beginning 
+	print(' 서버 이동 작업을 완료하여  다시 처음부터 시작합니다. ')
+	server_cur_name = '오딘'
+	server_cur_no = 1
+	-- 발두르5
+	--EnableImage(false, '초기화-서버')
+	--GotoImage("초기화-서버")
+	--PassAllAct()
+	--return
 end

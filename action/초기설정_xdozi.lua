@@ -28,7 +28,7 @@ initmaxfreezing_cnt = 10
 maxfreezing_cnt = initmaxfreezing_cnt
 freezing_cnt = 0
 cantfastmove = 0
-return_potion = 50
+return_potion = 500
 
 -- 타그룹 비활성
 function modeDisable()

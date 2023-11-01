@@ -1,0 +1,8 @@
+EnableImage(false, '접속')
+EnableImage(false, '퀘스트')
+EnableImage(false, '전투')
+EnableImage(false, '맵이동')
+EnableImage(false, '이동채집')
+EnableImage(false, '던전이동')
+EnableImage(false, '20미터')
+EnableImage(true, 'HP부족시')
